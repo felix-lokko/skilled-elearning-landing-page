@@ -1,0 +1,166 @@
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+
+    body {
+        background-image: url(./assets/image-hero-tablet.webp);
+        background-repeat: no-repeat;
+        background-position: top -92.13px right -300px;
+        background-size: 695px 723px;
+        font-family:'Plus Jakarta Sans', sans-serif;  
+    }
+
+
+    /* header */ 
+    header {
+        padding: 24px 39px 0px 39px;
+    }
+    
+    header h2 {
+        font-weight: 800;
+        font-size: 28px;
+        line-height: 35px;
+        color: #13183f;
+    }
+    
+    .header-button {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 26px;
+        color: #FFFFFF;
+        border: none;
+        border-radius: 31.5px;
+        padding: 9px 24px 11px 24px;
+        background-color: #13183F;
+     
+    }
+
+    .header-container { 
+        display: flex;
+        justify-content: space-between;
+        padding: 0px;
+    }
+
+    /* footer */
+    footer {
+        padding: 36px 40px 36px 39px;
+    }
+
+    footer div {
+        display: flex;
+        justify-content: space-between;
+        padding: 0px;
+    }
+
+    /* section-1 */
+
+    .section-1 {
+        margin-top: 98px;
+        flex-direction: row;
+        padding: 0px 39px;
+    }
+
+    .section-1 h1 {
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 50px;
+        margin-bottom:28px;
+        color: #13183F  
+    }
+
+    .section-1 p {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        color: #83869A;
+        margin-bottom: 40px;
+    }
+
+    .section-1 button {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 26px;
+        color: #FFFFFF;
+        background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+        border: none;
+        border-radius: 31.5px;
+        padding: 15px 37px 15px 38px;
+    }
+
+    #courses-text p {
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 32px;
+        color: #FFFFFF;
+    }
+
+    .course-item p { 
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 26px;
+        color: #83869A;
+        margin-bottom: 24px;
+    }
+
+    .content {
+        flex-basis: 60%;
+        max-width: 100%;
+    }
+
+
+    @media (min-width: 768px) {
+        .main-image-mobile {
+            display: none;
+        }
+    }
+
+
+    .main-image-tablet {
+        transform: translate(200px, 100px);
+    }
+    
+    
+    /* courses */
+ 
+
+    .courses {
+        margin-top: 171px;
+        padding: 24px 0px 86px 0px;
+        background: linear-gradient(180deg, #FFFFFF 0%, #f0f1ff 100%);
+    }
+
+    .courses-container {
+        display: grid;
+        /* padding: 0px 39px; */
+        grid-gap: 50px 26px;
+        grid-template-columns: 1fr 1fr ;
+        padding: 0px 130px 0px 30px;
+    }
+
+    .course-item {
+        padding: 0px 22px 32px 32px;
+        width: 339px;
+    }
+
+    #courses-text {
+        padding: 56px 21px 139px 32px;
+        width: 339px;
+    }
+
+    footer h2 {
+        font-weight: 800;
+        font-size: 28px;
+        line-height: 35px;
+        color: #FFFFFF;
+    }
+
+    .footer-button {
+        color: #FFFFFF;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 28px;
+        padding: 9px 24px 11px 24px;
+        background: linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+        border-radius: 28px;
+        border: none;
+    }
+}
