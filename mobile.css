@@ -3,8 +3,6 @@
     body {
         /* background-image: url(../assets/image-hero-mobile.webp) ;  */
         background-repeat: no-repeat;
-        /* background-position: center; */
-        /* background-position: right 433px left 24px; */
         background-size: 327px 301px;
         font-family:'Plus Jakarta Sans', sans-serif;
         
@@ -108,6 +106,7 @@
         /* margin-top: 46px; */
         margin-bottom: -250px;
     }
+
     .main-image-mobile {
         max-width: 100%;
         display: flex;
@@ -211,6 +210,7 @@
         padding: 0px;
         /* padding: 0px 100px 0px 130px;  */
     }
+    
     footer h2 {
         font-weight: 800;
         font-size: 28px;

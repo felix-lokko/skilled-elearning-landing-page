@@ -113,7 +113,6 @@
         }
     }
 
-
     .main-image-tablet {
         transform: translate(200px, 100px);
     }
@@ -130,7 +129,6 @@
 
     .courses-container {
         display: grid;
-        /* padding: 0px 39px; */
         grid-gap: 50px 26px;
         grid-template-columns: 1fr 1fr ;
         padding: 0px 130px 0px 30px;
